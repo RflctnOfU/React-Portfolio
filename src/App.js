@@ -14,10 +14,10 @@ function App() {
       <Header />
       <section className='flex justify-center items-center h-auto py-8 bg-gradient-to-tl from-sky-700 to-indigo-800 text-stone-300'>
         <Routes>
-          <Route path='/' element={<About />} />
-          <Route path='portfolio' element={<Portfolio />} />
-          <Route path='contact' element={<Contact />} />
-          <Route path='resume' element={<Resume />} />
+          <Route path='/React-Portfolio' element={<About />} />
+          <Route path='React-Portfolio/portfolio' element={<Portfolio />} />
+          <Route path='React-Portfolio/contact' element={<Contact />} />
+          <Route path='React-Portfolio/resume' element={<Resume />} />
         </Routes>
       </section>
       <Footer />

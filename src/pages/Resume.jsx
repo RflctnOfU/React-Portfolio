@@ -4,7 +4,7 @@ import { FaFileDownload } from 'react-icons/fa'
 const Resume = () => {
 
     return (
-        <div className='my-12 mb-16 pl-9'>
+        <div className='my-20 mb-16 pl-9'>
             <div className='leading-7' style={{ textShadow: '5px 5px 5px #292524' }}>
                 <div className='w-1/6'>
                     <h1 className='text-4xl text-slate-400 antialiased inline'>Resume</h1>

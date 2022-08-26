@@ -25,7 +25,7 @@ function Nav() {
                     <li className=' px-2 cursor-pointer text-lg hover:text-sky-900 transition duration-300 ease-in-out font-mono font-semibold inline' style={{ textShadow: '2px 5px 3px #312e81' }}>
                         <span><FaPenNib className='inline pr-2' size={20} /><NavLink to='/React-Portfolio/contact' style={({ isActive }) => isActive ? activeStyle : undefined}>Contact</NavLink></span>
                     </li>
-                    <li className=' px-2 cursor-pointer text-lg hover:text-sky-900 transition duration-300 ease-in-out font-mono font-semibold' style={{ textShadow: '2px 5px 3px #312e81' }}>
+                    <li className=' px-2 pr-4 cursor-pointer text-lg hover:text-sky-900 transition duration-300 ease-in-out font-mono font-semibold' style={{ textShadow: '2px 5px 3px #312e81' }}>
                         <span><FaFileAlt className='inline pr-2' size={18} /><NavLink to='/React-Portfolio/resume' style={({ isActive }) => isActive ? activeStyle : undefined}>Resume</NavLink></span>
                     </li>
 

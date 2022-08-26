@@ -1,6 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)     
   # React Portfolio
 
+  ![Screenshot](./public/images/Screen%20Shot%202022-08-25%20at%2011.01.40%20PM.png)
   ---
   ## Description
 
@@ -55,3 +56,8 @@
   My [Github](https://github.com/RflctnOfU) profile.
 
   If you have questions, send me an [email](rflctnofu@hotmail.com)
+
+  ---
+  ## Deployed App
+
+  [Portfolio](https://rflctnofu.github.io/React-Portfolio)

@@ -17,7 +17,7 @@ function Nav() {
                 </div>
                 <ul className='md:flex md:items-center'>
                     <li className=' px-2 cursor-pointer text-lg hover:text-sky-900 transition duration-300 ease-in-out font-mono font-semibold' style={{ textShadow: '2px 5px 3px #312e81' }}>
-                        <span><FaUserAlt className='inline pr-2' size={20} /><NavLink to='/React-Portfolio' style={({ isActive }) => isActive ? activeStyle : undefined}>About</NavLink></span>
+                        <span><FaUserAlt className='inline pr-2' size={20} /><NavLink to='/React-Portfolio/' style={({ isActive }) => isActive ? activeStyle : undefined}>About</NavLink></span>
                     </li>
                     <li className=' px-2 cursor-pointer text-lg hover:text-sky-900 transition duration-300 ease-in-out font-mono font-semibold' style={{ textShadow: '2px 5px 3px #312e81' }}>
                         <span><FaCode className='inline pr-2' size={20} /><NavLink to='/React-Portfolio/portfolio' style={({ isActive }) => isActive ? activeStyle : undefined}>Portfolio</NavLink></span>

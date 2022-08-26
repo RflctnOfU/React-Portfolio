@@ -61,19 +61,19 @@ const Contact = () => {
 
     return (
 
-        <div className="my-28 flex-col flex shadow-lg bg-gradient-to-br from-sky-600 to-indigo-700 rounded-xl w-1/2">
+        <div className="my-36 flex-col flex shadow-lg bg-gradient-to-br from-sky-600 to-indigo-700 rounded-xl w-1/2">
             <h1 className="place-self-center pt-3 text-lg">Contact Me</h1>
             <form className="form flex-col">
                 <div className="p-2">
-                    <label for='name'>Name:</label>
+                    <label>Name:</label>
                     <input className='form-input rounded-lg w-full text-slate-700' value={name} type="text" name="name" placeholder="Enter your name" onChange={handleInputChange} onBlur={handleBlur} onFocus={handleFocus} />
                 </div>
                 <div className="p-2">
-                    <label for='email'>Email:</label>
+                    <label>Email:</label>
                     <input className='align-middle form-input rounded-lg w-full text-slate-700' value={email} type="email" name="email" placeholder="Enter an email address" onChange={handleInputChange} onBlur={handleBlur} onFocus={handleFocus} />
                 </div>
                 <div className="p-2">
-                    <label for='message'>Message:</label>
+                    <label>Message:</label>
                     <textarea className='form-textarea rounded-lg w-full text-slate-700' value={message} name="message" placeholder="Send me a message" onChange={handleInputChange} onBlur={handleBlur} onFocus={handleFocus} />
                 </div>
                 {errorMessage && (

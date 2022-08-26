@@ -35,6 +35,8 @@ const Contact = () => {
 
         if ((inputType === 'name') && (!inputValue.length)) {
             setErrorMessage('Please enter a name!')
+        } else if (!validateEmail(email)) {
+            setErrorMessage('Invalid Email!')
         } else if ((inputType === 'email') && (!inputValue.length)) {
             setErrorMessage('Please enter an email!')
         } else if ((inputType === 'message') && (!inputValue.length)) {

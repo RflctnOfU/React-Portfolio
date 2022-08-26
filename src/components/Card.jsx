@@ -12,8 +12,8 @@ const Card = ({ id, image, title, live, github }) => {
     }
 
     return (
-        <div className='bg-gradient-to-br from-slate-300 to-slate-500 rounded-lg hover:scale-105 transition duration-300 opacity-70 hover:opacity-100' style={shadow} key={id}>
-            <div className="shadow-lg rounded-t-lg mb-2 h-60 w-60  transition duration-300 flex justify-around items-center z-0" style={cardStyle}></div>
+        <div className='bg-gradient-to-br from-slate-300 to-slate-500 rounded-lg hover:scale-105 transition duration-500 opacity-70 hover:opacity-100' style={shadow} key={id}>
+            <div className="shadow-lg rounded-t-lg mb-2 h-60 w-60  transition duration-300 flex justify-around items-center" style={cardStyle}></div>
             <div className="flex justify-around">
                 <div>
                     <a href={live} target="_blank" className='text-slate-600 hover:text-slate-300 transition duration-300' style={{ textShadow: '2px 5px 4px #1e293b' }} rel="noreferrer">

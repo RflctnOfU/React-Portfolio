@@ -8,12 +8,9 @@ function Nav() {
 
     return (
         <div className='w-full shadow-xl'>
-            <div className='md:flex justify-between py-4 bg-gradient-to-br from-sky-400 to-indigo-500 h-auto'>
+            <div className='md:flex items-center justify-between py-4 bg-gradient-to-br from-sky-400 to-indigo-500 md:h-32 h-auto'>
                 <div>
-                    <span>
-                        <img src="" alt="" />
-                    </span>
-                    <span className="antialiased text-4xl font-bold pl-5" style={{ textShadow: '2px 5px 4px #312e81' }}>Kristofer Marshall</span>
+                    <span className="antialiased text-4xl font-bold pl-4" style={{ textShadow: '2px 5px 4px #312e81' }}>Kristofer Marshall</span>
                 </div>
                 <ul className='md:flex md:items-center'>
                     <li className=' px-2 cursor-pointer text-lg hover:text-sky-900 transition duration-300 ease-in-out font-mono font-semibold' style={{ textShadow: '2px 5px 3px #312e81' }}>

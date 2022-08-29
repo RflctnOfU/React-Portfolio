@@ -3,7 +3,7 @@ const ProjectData = [
         id: 1,
         title: 'Game Getter',
         image: 'images/GameGetter.png',
-        description: 'Game Getter is an interactive application that allows users to search for over 16,700 video games from various genres, publishers, release years and more! After searching, a display of all related search results will be curated just for you.',
+        description: 'Game Getter is an interactive application that allows users to search for over 16,700 video games from various genres, publishers, release years and more! After searching, a display of all related search results will be curated just for you. Built with Handlebars, MySQL, Sequelize, and Express',
         live: 'https://game-getter-project-2.herokuapp.com/',
         github: 'https://github.com/StevenBolc/GameGetter'
     },
@@ -11,7 +11,7 @@ const ProjectData = [
         id: 2,
         title: 'The Tech Blog',
         image: 'images/TechBlog.png',
-        description: 'The Tech Blog is a CMS style blog site for users to log in and make posts detailing thier thoughts on the tech world. While logged in, users can comment on existing posts, and a personal dashboard keeps track of their posts, that they can edit or delete.',
+        description: 'The Tech Blog is a CMS style blog site for users to log in and make posts detailing thier thoughts on the tech world. While logged in, users can comment on existing posts, and a personal dashboard keeps track of their posts, that they can edit or delete. Built with Handlebars, express, MySQL, and Sequelize',
         live: 'https://nameless-mountain-71362.herokuapp.com/',
         github: 'https://github.com/RflctnOfU/TechBlog'
     },
@@ -19,7 +19,7 @@ const ProjectData = [
         id: 3,
         title: 'BooksVsMovies',
         image: 'images/BooksVsMovies.png',
-        description: 'BooksVsMovies is a web application that allows the user to search for the title of a book or a movie and compares the two titles side by side. The user then is allowed to leave their mark on the page by giving the titles a thumbs-up, if they enjoy the title, or a thumbs-down, if they disliked the title.',
+        description: 'BooksVsMovies is a web application that allows the user to search for the title of a book or a movie and compares the two titles side by side. The user then is allowed to leave their mark on the page by giving the titles a thumbs-up, if they enjoy the title, or a thumbs-down, if they disliked the title. Built with HTML5, CSS3, jQuery, and fetchAPI',
         live: 'https://rflctnofu.github.io/BooksVsMovies/',
         github: 'https://github.com/RflctnOfU/BooksVsMovies'
     },

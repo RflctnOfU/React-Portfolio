@@ -7,7 +7,7 @@ const Portfolio = () => {
     return (
         <div className='my-16 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-16'>
             {projects.map((project) =>
-                <Card id={project.id} image={project.image} title={project.title} live={project.live} github={project.github} />
+                <Card id={project.id} image={project.image} description={project.description} title={project.title} live={project.live} github={project.github} />
             )}
         </div>
     )

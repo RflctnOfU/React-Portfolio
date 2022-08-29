@@ -2,6 +2,9 @@
   # React Portfolio
 
   ![Screenshot](./public/images/Screen%20Shot%202022-08-25%20at%2011.01.40%20PM.png)
+  ![Screenshot](./public/images/Screen%20Shot%202022-08-29%20at%206.40.36%20PM.png)
+  ![Screenshot](./public/images/Screen%20Shot%202022-08-29%20at%206.41.04%20PM.png)
+  ![Screenshot](./public/images/Screen%20Shot%202022-08-29%20at%206.40.57%20PM.png)
   ---
   ## Description
 

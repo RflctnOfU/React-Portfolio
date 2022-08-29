@@ -23,15 +23,16 @@
   ---
   ## Installation
 
+  clone the repo, then
   ```bash
-  n/a
+  npm i
   ```
 
   ---
   ## Usage
 
   ```
-  n/a
+  npm start
   ```
 
   ---

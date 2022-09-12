@@ -1,7 +1,10 @@
 import React from "react";
-import { FaUserCircle } from "react-icons/fa";
 
 const About = () => {
+  const picture = {
+    height: "100px",
+    width: "100px",
+  };
   return (
     <section
       className=" md:w-2/3 md:my-24 w-5/6 mx-2"
@@ -14,7 +17,12 @@ const About = () => {
           </h1>
         </div>
         <div>
-          <FaUserCircle className="text-slate-400 pb-4" size={100} />
+          <img
+            src={require("../images/KrisMarshall.jpg")}
+            alt="headshot"
+            style={picture}
+            className="border-solid border-2 rounded-full mb-4"
+          />
         </div>
         <p className="antialiased md:text-2xl text-lg md:px-8 px-4 font-mono text-slate-400">
           I am a Full-Stack Web Developer with a background in music. As such, I

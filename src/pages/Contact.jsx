@@ -47,7 +47,7 @@ const Contact = () => {
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     const result = await fetch(
-      "https://formsubmit.co/ajax/rflctnofu@hotmail.com",
+      "https://formsubmit.co/ajax/2a53bee05e137a296425eb57695a2f74",
       {
         method: "POST",
         headers: {

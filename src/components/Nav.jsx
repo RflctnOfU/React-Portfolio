@@ -8,7 +8,7 @@ function Nav() {
 
   return (
     <div className="w-full shadow-xl">
-      <div className="md:flex items-center justify-between py-4 bg-gradient-to-br from-sky-400 to-indigo-500 md:h-32 h-auto">
+      <div className="md:flex items-center justify-between py-4 bg-gradient-to-br from-sky-500 to-indigo-600 md:h-32 h-auto">
         <div>
           <span
             className="antialiased text-4xl font-bold pl-4"

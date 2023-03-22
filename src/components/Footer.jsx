@@ -1,7 +1,7 @@
 import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
 function Footer() {
   return (
-    <footer className="flex justify-around h-32 items-center bg-gradient-to-tl  from-indigo-700 box-border to-sky-500">
+    <footer className="flex justify-around h-32 items-center bg-gradient-to-tl  from-indigo-700 box-border to-sky-500 absolute bottom-0">
       <a
         className="py-5"
         href="https://github.com/RflctnOfU"

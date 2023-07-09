@@ -1,6 +1,15 @@
 const ProjectData = [
   {
     id: 1,
+    title: "Astralis",
+    image: "images/homepage.png",
+    description:
+      "This is a website for the Astralis Chamber Ensemble, an innovative group of young musicians whose mission is to expand the repretoire and bring classical music to areas that otherwise don't have access. Site built using Next.js and TailwindCSS",
+    live: "#",
+    github: "https://github.com/RflctnOfU/Astralis-Site",
+  },
+  {
+    id: 2,
     title: "SupporDev",
     image: "images/SupporDev.png",
     description:
@@ -9,7 +18,7 @@ const ProjectData = [
     github: "https://github.com/DalianGrullon/SupporDev",
   },
   {
-    id: 2,
+    id: 3,
     title: "Game Getter",
     image: "images/GameGetter.png",
     description:
@@ -18,7 +27,7 @@ const ProjectData = [
     github: "https://github.com/StevenBolc/GameGetter",
   },
   {
-    id: 3,
+    id: 4,
     title: "The Tech Blog",
     image: "images/TechBlog.png",
     description:
@@ -27,7 +36,7 @@ const ProjectData = [
     github: "https://github.com/RflctnOfU/TechBlog",
   },
   {
-    id: 4,
+    id: 5,
     title: "BooksVsMovies",
     image: "images/BooksVsMovies.png",
     description:
@@ -36,22 +45,13 @@ const ProjectData = [
     github: "https://github.com/RflctnOfU/BooksVsMovies",
   },
   {
-    id: 5,
+    id: 6,
     title: "Note Taker",
     image: "images/NoteTaker.png",
     description:
       "This is an app deployed on Heroku that stores notes that are entered on the page in a database.json and displays the title of the notes that can be recalled and posted on the main part of the page. They can also be deleted. App uses express.js",
     live: "https://lit-mountain-01965.herokuapp.com/",
     github: "https://github.com/RflctnOfU/NoteTaker",
-  },
-  {
-    id: 6,
-    title: "Weather Dashboard",
-    image: "images/WeatherDashboard.png",
-    description:
-      "A city search app using openweather api to get current and forecast weather data. app uses fetch and features dynamic displays.",
-    live: "https://rflctnofu.github.io/WeatherDashboard/",
-    github: "https://github.com/RflctnOfU/WeatherDashboard",
   },
 ];
 

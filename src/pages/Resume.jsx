@@ -8,7 +8,7 @@ const Resume = () => {
         <div className="w-1/6">
           <h1 className="text-6xl text-slate-400 antialiased inline">Resume</h1>
           <a
-            href="https://docs.google.com/document/d/10OMeeqZ0UawrWZaOrKsod3priFHSRHbX/edit?usp=sharing&ouid=107838454678294296464&rtpof=true&sd=true"
+            href="https://docs.google.com/document/d/1EbP922bEX-H04TKCCedPaPdNCTcqzmc_-TlQkWuk40g/edit?usp=sharing"
             target="_blank"
             className="mx-0 inline"
             rel="noreferrer"

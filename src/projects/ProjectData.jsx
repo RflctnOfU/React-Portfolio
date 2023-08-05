@@ -5,7 +5,7 @@ const ProjectData = [
     image: "images/homepage.png",
     description:
       "This is a website for the Astralis Chamber Ensemble, an innovative group of young musicians whose mission is to expand the repretoire and bring classical music to areas that otherwise don't have access. Site built using Next.js and TailwindCSS",
-    live: "#",
+    live: "https://www.astralisensemble.com",
     github: "https://github.com/RflctnOfU/Astralis-Site",
   },
   {
